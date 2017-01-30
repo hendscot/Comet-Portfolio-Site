@@ -56,18 +56,20 @@ body .banner hr {
 #cmt-nav li {
     margin:                          0 0 0 0;
     font-weight:                        bold;
+    font-size:                         1.8em;
     display:                           block;
     height :                             10%;
     color:                         #696969;
+    transition:                          .1s;
 }
 
 #cmt-nav li:hover {
     color:                         #f8f8ff;
+    font-size:                           2em;
 }
 
 #cmt-nav li i {
     margin:                    25px 0 0 10px;
-    font-size:                         1.8em;
 }
 
 #cmt-nav li.bottom {
