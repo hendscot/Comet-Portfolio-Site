@@ -40,7 +40,7 @@ body .banner hr {
     position:                             fixed;
     overflow:                              auto;
     background-color:       rgba(0, 0, 0, .8);
-    transition:                             .5s;
+    transition:                             .3s;
     z-index:                                  2;
 }
 
@@ -80,11 +80,13 @@ body .banner hr {
     color:                             #ff4500;
 }
 
-#cmt-nav .text {
-    font-family  'Source Code Pro', sans-serif;
-    font-size:                         1.5em;
+.text {
+    /*font-family  'Source Code Pro', sans-serif;*/
+    font-size:                         .8em;
     margin:                   -10px 0 0 15px;
-    
+    font-color:                      white;
+    transition:                          .1s;  
+    font-family: 'Teko', sans-serif;  
 }
 
 #cmt-bdy-ovrly {
