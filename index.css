@@ -1,6 +1,16 @@
 body {
     margin:                                   0;
     z-index:                                  0;
+    height:                                100%;
+}
+
+.parallax {
+    background-color:                     #696969;
+    height:                                 100%;
+    background-attachment:                  fixed;
+    background-position:                     center;
+    background-repeat:                      no-repeat;
+    background-size:                           cover;
 }
 
 .content {
@@ -60,12 +70,18 @@ body .banner hr {
     display:                           block;
     height :                             10%;
     color:                         #696969;
-    transition:                          .1s;
+    -webkit-transition:         all .1s ease;
+    -moz-transition:            all .1s ease;
+    -ms-transition:             all .1s ease;
+    transition:                 all .1s ease;
 }
 
 #cmt-nav li:hover {
     color:                         #f8f8ff;
     font-size:                           2em;
+    -moz-transform:               scale(1);
+    -webkit-transform:            scale(1);
+    transform:                    scale(1);
 }
 
 #cmt-nav li i {
@@ -85,8 +101,8 @@ body .banner hr {
     font-size:                         .8em;
     margin:                   -10px 0 0 15px;
     font-color:                      white;
-    transition:                          .1s;  
-    font-family: 'Teko', sans-serif;  
+    font-family:          'Teko', sans-serif;
+    cursor:                          pointer;  
 }
 
 #cmt-bdy-ovrly {
